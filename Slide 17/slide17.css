@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navigation-bar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  align-items: center;
+}
+.logo-img {
+  width: 355px;
+  height: 70px;
+}
+.search-event-form {
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  opacity: 1;
+  display: flex;
+  width: fit-content;
+  padding: 2px 7px 2px 7px;
+}
+.search-event-input {
+  border-radius: 51px;
+  outline: none;
+  border: none;
+  width: 20vw;
+}
+.search-icon {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.submit-search-btn {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  border: none;
+}
+.public-events-link,
+.private-events-link {
+  text-decoration: none;
+  padding-top: 5px;
+  color: black;
+}
+.public-events-link:hover,
+.private-events-link:hover {
+  border-bottom: solid 2px#FF5700;
+  color: #ff5700;
+}
+.create-event-link {
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  padding: 5px 10px;
+  width: 10vw;
+}
+.create-event-link:hover {
+  background: transparent;
+  color: #ff5700;
+  font: bolder;
+  border: 2px solid #ff5700;
+}
+.log-in-link {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  padding: 3px 25px;
+  color: black;
+  width: 10vw;
+  text-align: center;
+}
+.log-in-link:hover {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+  border: none;
+  padding: 5px 25px;
+}
+
+.signup-container {
+  display: flex;
+  color: black;
+}
+.signup-form-section {
+  border: 1px solid #ff5700;
+  border-radius: 15px;
+  padding: 2rem 3rem 1rem 3rem;
+  display: block;
+  margin: 3rem auto;
+}
+.signup-title {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.signin-first-name-input,
+.signin-last-name-input,
+.sigin-email-input,
+.sigin-password-input {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 3rem;
+  margin-bottom: 1.2rem;
+  font-size: small;
+  width: 20rem;
+  padding: 0 1.5rem;
+}
+.signin-tel-section {
+    display: flex;
+    width: 20rem;
+    height: 3rem;
+    font-size: small;
+    margin-bottom: 1.2rem;
+}
+.sigin-tel-country-code-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    width: 5rem;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.sign-tel-country-flag {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+.sigin-tel-input {
+    padding: 0 1.5rem;
+    width: 15rem;
+    border: 1px solid black;
+    border-left-width: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.signup-submit-btn {
+  margin: 2rem auto 1rem auto;
+  border: none;
+  background-color: #ff5700;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  width: 15rem;
+  padding: 0.5rem 0;
+  border-radius: 30px;
+}

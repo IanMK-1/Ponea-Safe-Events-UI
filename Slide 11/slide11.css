@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navigation-bar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  align-items: center;
+}
+.logo-img {
+  width: 355px;
+  height: 70px;
+}
+.search-event-form {
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  opacity: 1;
+  display: flex;
+  width: fit-content;
+  padding: 2px 7px 2px 7px;
+}
+.search-event-input {
+  border-radius: 51px;
+  outline: none;
+  border: none;
+  width: 20vw;
+}
+.search-icon {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.submit-search-btn {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  border: none;
+}
+.public-events-link,
+.private-events-link {
+  text-decoration: none;
+  padding-top: 5px;
+  color: black;
+}
+.public-events-link:hover,
+.private-events-link:hover {
+  border-bottom: solid 2px#FF5700;
+  color: #ff5700;
+}
+.create-event-link {
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  padding: 5px 10px;
+  width: 10vw;
+}
+.create-event-link:hover {
+  background: transparent;
+  color: #ff5700;
+  font: bolder;
+  border: 2px solid #ff5700;
+}
+.log-in-link {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  padding: 3px 25px;
+  color: black;
+  width: 10vw;
+  text-align: center;
+}
+.log-in-link:hover {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+  border: none;
+  padding: 5px 25px;
+}
+
+.test-filter-section {
+  margin: 2rem;
+  gap: 5%;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 5%;
+}
+.dropbtn {
+  font-size: large;
+  text-decoration: none;
+  padding: 5px 2rem 5px 2rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 7px 7px 7px #00000029;
+  border-radius: 37px;
+  opacity: 1;
+  border: none;
+  white-space: nowrap;
+}
+.caret-icon {
+  margin-left: 1rem;
+  font-size: 22px;
+}
+.dropdown:hover .caret-icon {
+  transform: rotate(-180deg);
+  transition: ease-in-out 0.5s;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 20vw;
+  box-shadow: -15px 35px 30px #12121477;
+  border: 1px solid #d0d6e6;
+  opacity: 1;
+  z-index: 1000 !important;
+  background-color: white;
+}
+.dropdown-item {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  font-size: small;
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.test-title-section {
+  background-color: #041f4e;
+  padding: 1.5rem 0;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.test-type-info-section {
+  padding: 2.5rem 5rem;
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+.test-type-info {
+  width: 40rem;
+}
+.test-type-image {
+  border: 1px solid gray;
+  border-radius: 37px;
+  width: 18rem;
+  height: 16rem;
+  padding: 4rem 1rem;
+}
+.test-type-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.test-type-provider-location-section,
+.test-type-provider-section,
+.test-type-price-section {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.test-type-provider-location-title,
+.test-type-provider-title,
+.test-type-price-title {
+  color: #0a22a3;
+  width: 150px;
+}
+.test-type-provider-location {
+  font-weight: bold;
+}
+.test-type-price {
+  background-color: #f1ccb9;
+  font-weight: bold;
+  font-size: large;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.appointment-test-booking-section {
+  background-color: #9f98e331;
+  padding: 2rem 3rem 5rem 3rem;
+  display: flex;
+  gap: 4rem;
+}
+.appointment-dropdown-btn {
+  border: 1px solid black;
+  background-color: #ffffff;
+}
+.dropdown-toggle::after {
+  margin-left: 20px;
+  font-size: large;
+}
+.dropdown-item:hover {
+  background-color: black;
+  color: white;
+}
+.appointment-date-picker {
+  display: flex;
+}
+.appointment-date-input {
+  border: 1px solid black;
+  width: 14rem;
+  height: 2.4rem;
+}
+.appointment-date-input::placeholder {
+  color: black;
+}
+.appointment-date-input:hover {
+  cursor: pointer;
+}
+.appointment-down-icon {
+  margin-left: -30px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.appointment-test-quantity-section,
+.appointment-test-time-picker-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 14rem;
+  line-height: 3rem;
+  background-color: #ffffff;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+  border-radius: 10px;
+}
+.appointment-test-quantity-title,
+.appointment-test-time-title {
+  font-size: large;
+}
+.appointment-test-quantity-plus-btn,
+.appointment-test-quantity-minus-btn {
+  border-radius: 50%;
+  font-size: large;
+  border: 2px solid black;
+  padding: 2px 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.appointment-test-quantity-input {
+  width: 5rem;
+  height: 2.2rem;
+  border: 2px solid rgb(143, 143, 143);
+  border-radius: 5px;
+  margin: 0 3px;
+  text-align: center;
+}
+.appointment-test-time-picker {
+  display: flex;
+}
+.appointment-test-hour-picker,
+.appointment-test-minutes-picker {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5rem;
+}
+.appointment-test-hour-input,
+.appointment-test-minutes-input {
+  width: 2rem;
+  text-align: center;
+  color: #612fa1;
+  font-size: large;
+  font-weight: bold;
+}
+.appointment-test-time-separator {
+  color: #612fa1;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 0.2rem;
+  padding: 0 2px;
+}
+.appointment-test-time-zone-input {
+  color: #612fa1;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+}
+
+.appointment-test-continue-btn-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.appointment-test-continue-btn {
+  background-color: #ff5700;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bolder;
+  padding: 0.5rem 0;
+  border-radius: 30px;
+  width: 15rem;
+  text-align: center;
+}
+.appointment-test-continue-btn:hover {
+  color: white;
+}

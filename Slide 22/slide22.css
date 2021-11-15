@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav bar section */
+
+.navigation-bar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  align-items: center;
+}
+.logo-img {
+  width: 355px;
+  height: 70px;
+}
+.search-event-form {
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  opacity: 1;
+  display: flex;
+  width: fit-content;
+  padding: 2px 7px 2px 7px;
+}
+.search-event-input {
+  border-radius: 51px;
+  outline: none;
+  border: none;
+  width: 20vw;
+}
+.search-icon {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.submit-search-btn {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  border: none;
+}
+.public-events-link,
+.private-events-link {
+  text-decoration: none;
+  padding-top: 5px;
+  color: black;
+}
+.public-events-link:hover,
+.private-events-link:hover {
+  border-bottom: solid 2px#FF5700;
+  color: #ff5700;
+}
+.create-event-link {
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  padding: 5px 0;
+  text-align: center;
+  width: 10vw;
+}
+.create-event-link:hover {
+  background: transparent;
+  color: #ff5700;
+  font: bolder;
+  border: 2px solid #ff5700;
+}
+.log-in-link {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  padding: 3px 25px;
+  color: black;
+  width: 10vw;
+  text-align: center;
+}
+.log-in-link:hover {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+  border: none;
+  padding: 5px 25px;
+}
+
+/* End of Navbar section */
+
+/* Create event title section */
+
+.create-event-title-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+.create-event-back-link,
+.create-event-cancel-link {
+  color: black;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+/* End of create event title section */
+
+/* event restrictions, requirements and merchandise section */
+
+.create-event-options-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+.event-options-col1,
+.event-options-col2 {
+  display: block;
+}
+
+.add-event-restrictions-section,
+.add-event-requirements-section {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.add-restriction-title,
+.add-requirements-title {
+  font-size: large;
+  margin-bottom: 0.5rem;
+}
+.add-event-restrictions-body,
+.add-event-requirements-body {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.add-restriction-btn,
+.add-requirements-btn {
+  border-color: #ff5700;
+  padding: 5px 25px;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.add-restriction-btn:focus,
+.add-requirements-btn:focus {
+  box-shadow: none;
+}
+.add-restriction-form,
+.add-requirements-form {
+  margin: 1rem 0;
+}
+.restrictions-added-section,
+.requirements-added-section {
+  margin-top: 2rem;
+}
+.restriction-text {
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: #e2e2e2;
+  color: #50555d;
+  margin: 5px 0;
+  width: fit-content;
+}
+.requirements-text {
+  color: #50555d;
+  margin: 5px 0;
+}
+.requirements-text i {
+  font-size: medium;
+  background-color: #fce2d5;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 50%;
+}
+.create-event-payment-option {
+  width: fit-content;
+  border: 1px solid black;
+}
+.create-event-merchandise-section {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+}
+.merchandise-name {
+  width: 15vw;
+}
+.merchandise-checkbox {
+  width: 10vw;
+}
+input[type=checkbox] {
+    filter: hue-rotate(150deg);
+}
+.create-event-btn {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  padding: 5px 3rem;
+  font-size: small;
+}
+.event-options-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+/* end of event restrictions, requirements and merchandise section */

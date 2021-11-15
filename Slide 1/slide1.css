@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Nav bar section */
+
+.navigation-bar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  align-items: center;
+}
+.logo-img {
+  width: 355px;
+  height: 70px;
+}
+.search-event-form {
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  opacity: 1;
+  display: flex;
+  width: fit-content;
+  padding: 2px 7px 2px 7px;
+}
+.search-event-input {
+  border-radius: 51px;
+  outline: none;
+  border: none;
+  width: 20vw;
+}
+.search-icon {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.submit-search-btn {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  border: none;
+}
+.public-events-link,
+.private-events-link {
+  text-decoration: none;
+  padding-top: 5px;
+  color: black;
+}
+.public-events-link:hover,
+.private-events-link:hover {
+  border-bottom: solid 2px#FF5700;
+  color: #ff5700;
+}
+.create-event-link {
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  padding: 5px 10px;
+  width: 10vw;
+}
+.create-event-link:hover {
+  background: transparent;
+  color: #ff5700;
+  font: bolder;
+  border: 2px solid #ff5700;
+}
+.log-in-link {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  padding: 3px 25px;
+  color: black;
+  width: 10vw;
+  text-align: center;
+}
+.log-in-link:hover {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+  border: none;
+  padding: 5px 25px;
+}
+
+/* Welcome section */
+
+.welcome-section {
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: transparent url("images/4_Mesa\ de\ trabajo\ 1.jpg");
+  border: 1px solid #707070;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 43px;
+  height: 300px;
+  opacity: 1;
+}
+.welcome-msg {
+  color: white;
+  border: 3px solid white;
+  width: fit-content;
+  border-radius: 46px;
+  opacity: 1;
+  box-shadow: 0px 3px 6px #00000029;
+  font-size: x-large;
+  font-weight: bolder;
+  padding: 10px 50px 10px 50px;
+  margin: auto;
+  margin-top: 6%;
+}
+.filter-section {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.featured-link {
+  border-bottom: solid 6px#FF5700;
+  font-size: large;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+  margin-right: 5%;
+}
+.featured-link:hover {
+  color: black;
+}
+.upcoming-link {
+  font-size: large;
+  font-weight: bolder;
+  text-decoration: none;
+  padding-bottom: 5px;
+  margin-right: 5%;
+  color: gray;
+}
+.upcoming-link:hover {
+  border-bottom: solid 6px#FF5700;
+  color: #ff5700;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 5%;
+}
+.dropbtn {
+  font-size: large;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 5px 20px 5px 20px;
+  margin-right: 5%;
+  color: gray;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 7px 7px 7px #00000029;
+  border-radius: 37px;
+  opacity: 1;
+  border: none;
+  white-space: nowrap;
+}
+.caret-icon {
+  margin-left: 5px;
+}
+.dropdown:hover .caret-icon {
+  transform: rotate(-180deg);
+  transition: ease-in-out 0.5s;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 210px;
+  box-shadow: -15px 35px 30px #12121477;
+  border: 1px solid #d0d6e6;
+  border-radius: 0px 0px 2px 2px;
+  opacity: 1;
+  z-index: 1000 !important;
+  background-color: white;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  font-size: small;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.event-cards-section {
+  background: #9f98e331 0% 0% no-repeat padding-box;
+  box-shadow: -10px 9px 43px #9f98e329;
+  opacity: 1;
+  margin-top: 6px;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+.event-card {
+  width: 85%;
+  height: 70vh;
+  position: relative;
+  transition: width 1s;
+  cursor: pointer;
+}
+.event-date-header {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  background-color: white;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 3px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  line-height: 1;
+}
+.event-card-image {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  transition: height 1s;
+}
+.event-card-info {
+  background-color: white;
+  padding: 10px;
+  font-size: small;
+}
+.event-info-header {
+  font-weight: bolder;
+}
+.event-date-time {
+  display: flex;
+  justify-content: space-between;
+  background: #f0efef 0% 0% no-repeat padding-box;
+  opacity: 0.88;
+  padding: 5px;
+  margin-top: 10px;
+}
+.register-btn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 41px;
+  border: none;
+  background-color: #ff5700;
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+  padding: 5px 50px;
+  margin: 20px auto 10px auto;
+  display: block;
+}
+.event-location {
+  background: #f0efef 0% 0% no-repeat padding-box;
+  opacity: 0.88;
+  padding: 5px;
+  margin-top: 5px;
+}
+.event-day {
+  font-weight: bolder;
+  font-size: x-large;
+}
+.event-card:hover .event-card-image {
+  height: 40vh;
+}
+.event-card:hover {
+  width: 100%;
+}
+.event-icons {
+  margin-right: 3px;
+  color: #ff5700;
+}

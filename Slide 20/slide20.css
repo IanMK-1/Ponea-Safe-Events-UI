@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.event-created-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.event-created-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.event-created-card i {
+  font-size: 70px;
+  color: #ff5700;
+  margin: 2rem 0;
+}
+.confirmed-event-msg {
+  font-size: large;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.thanks-msg {
+  font-weight: bolder;
+  font-size: x-large;
+  color: gray;
+}
+.booking-number {
+  margin: 2rem 0 0 0;
+  font-weight: bolder;
+  font-size: large;
+}
+.dashboard-button {
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 3rem;
+  margin: 2rem 0 1rem 0;
+  font-weight: bold;
+  background-color: #ff5700;
+}
+.dashboard:focus {
+  box-shadow: none;
+}

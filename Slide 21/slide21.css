@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav bar section */
+
+.navigation-bar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  align-items: center;
+}
+.logo-img {
+  width: 355px;
+  height: 70px;
+}
+.search-event-form {
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  opacity: 1;
+  display: flex;
+  width: fit-content;
+  padding: 2px 7px 2px 7px;
+}
+.search-event-input {
+  border-radius: 51px;
+  outline: none;
+  border: none;
+  width: 20vw;
+}
+.search-icon {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.submit-search-btn {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  border: none;
+}
+.public-events-link,
+.private-events-link {
+  text-decoration: none;
+  padding-top: 5px;
+  color: black;
+}
+.public-events-link:hover,
+.private-events-link:hover {
+  border-bottom: solid 2px#FF5700;
+  color: #ff5700;
+}
+.create-event-link {
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  padding: 5px 0;
+  text-align: center;
+  width: 10vw;
+}
+.create-event-link:hover {
+  background: transparent;
+  color: #ff5700;
+  font: bolder;
+  border: 2px solid #ff5700;
+}
+.log-in-link {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  padding: 3px 25px;
+  color: black;
+  width: 10vw;
+  text-align: center;
+}
+.log-in-link:hover {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+  border: none;
+  padding: 5px 25px;
+}
+
+/* End */
+
+.create-event-title-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+.create-event-title {
+  font-size: x-large;
+  font-weight: bolder;
+  white-space: nowrap;
+}
+.create-event-back-link,
+.create-event-cancel-link {
+  color: black;
+  font-size: x-large;
+  text-decoration: none;
+}
+/* .create-event-title-underline {
+  background-color: #ff5700;
+  padding: 1.5px 0;
+} */
+.create-event-mid-section {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 1rem;
+}
+.create-event-title-select {
+  border-radius: 20px;
+  border-color: black;
+  font-weight: bold;
+  color: #ff5700;
+}
+
+.create-event-form-section {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.create-event-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.event-details-row1,
+.event-details-row2 {
+  display: flex;
+  gap: 2rem;
+}
+.event-banner-upload-section {
+  font-size: small;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.upload-event-banner-btn {
+  border: 1px solid black;
+  color: gray;
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.upload-event-banner-btn img {
+  width: 5rem;
+  height: 4rem;
+  padding: 1rem;
+  box-shadow: -7px 15px 25px #00000026;
+  border-radius: 20px;
+}
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.upload-banner-info {
+  display: block;
+  margin-top: 2rem;
+  font-size: x-small;
+}
+.upload-banner-btn {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  padding: 5px 3rem;
+  margin: 0 auto;
+}
+
+.event-details-row2 {
+  font-size: small;
+  font-weight: bold;
+}
+.event-details-row2 .form-control {
+  font-size: small;
+  height: 20vh;
+}
+.event-details-col1,
+.event-details-col2 {
+  display: block;
+  font-size: small;
+  font-weight: bold;
+}
+.event-details-col1 .form-group,
+.event-details-col2 .form-group {
+  margin: 0 0 1rem 0;
+}
+.event-details-col1 .form-control,
+.event-details-col2 .form-control,
+.event-details-col2 select,
+.event-details-col1 select {
+  font-size: small;
+}
+.event-details-row3 {
+  margin: auto;
+}
+.create-event-next-btn {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  padding: 5px 3rem;
+  font-size: small;
+}

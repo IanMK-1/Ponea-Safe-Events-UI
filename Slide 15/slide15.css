@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav bar section */
+
+.navigation-bar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  align-items: center;
+}
+.logo-img {
+  width: 355px;
+  height: 70px;
+}
+.search-event-form {
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  opacity: 1;
+  display: flex;
+  width: fit-content;
+  padding: 2px 7px 2px 7px;
+}
+.search-event-input {
+  border-radius: 51px;
+  outline: none;
+  border: none;
+  width: 20vw;
+}
+.search-icon {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.submit-search-btn {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  border: none;
+}
+.public-events-link,
+.private-events-link {
+  text-decoration: none;
+  padding-top: 5px;
+  color: black;
+}
+.public-events-link:hover,
+.private-events-link:hover {
+  border-bottom: solid 2px#FF5700;
+  color: #ff5700;
+}
+.create-event-link {
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  padding: 5px 0;
+  text-align: center;
+  width: 10vw;
+}
+.create-event-link:hover {
+  background: transparent;
+  color: #ff5700;
+  font: bolder;
+  border: 2px solid #ff5700;
+}
+.log-in-link {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  padding: 3px 25px;
+  color: black;
+  width: 10vw;
+  text-align: center;
+}
+.log-in-link:hover {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+  border: none;
+  padding: 5px 25px;
+}
+
+/* End */
+
+/* private event confirmation section */
+
+.private-event-confirmation-section {
+  background-color: #9f98e331;
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  height: 100%;
+  padding: 10px 0;
+}
+.private-event-confirmation-box {
+  margin: auto 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: -7px 15px 25px #00000029;
+  height: 450px;
+  display: flex;
+  padding: 1rem;
+}
+.private-event-confirmation-sect1 {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.private-event-confirmation-sect2 {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.private-event-confirmation-sect1 img {
+  margin: 10px auto;
+  width: 16rem;
+  height: 10rem;
+}
+.private-event-confirmation-sect1 span {
+  font-weight: bold;
+  font-size: large;
+}
+.vertical-line {
+  border: 0.5px solid gray;
+}
+
+.confirmation-email-input {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 3rem;
+  margin-bottom: 1.2rem;
+  font-size: small;
+  padding: 0 1.5rem;
+}
+.confirmation-tel-section {
+  display: flex;
+  height: 3rem;
+  font-size: small;
+  margin-bottom: 1.2rem;
+  width: 100%;
+}
+.confirmation-tel-country-code-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  width: 4rem;
+  border: 1px solid black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.confirmation-tel-country-flag {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+.confirmation-tel-input {
+  padding: 0 1.5rem;
+  border: 1px solid black;
+  border-left-width: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.otp-confirmation-section {
+  display: flex;
+  gap: 0.5rem;
+  width: 20%;
+  margin: 1rem 0;
+}
+.otp-confirmation-section input {
+  padding: 2vh 0;
+  border: 2px solid #492379;
+  border-radius: 5px;
+  text-align: center;
+  width: 6.2vw;
+}
+.otp-text {
+  font-size: x-small;
+  font-weight: bold;
+}
+.otp-submit-btn {
+  margin: 2rem auto 1rem auto;
+  border: none;
+  background-color: #ff5700;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  width: 15rem;
+  padding: 0.5rem 0;
+  border-radius: 30px;
+}

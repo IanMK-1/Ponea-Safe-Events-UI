@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav bar section */
+
+.navigation-bar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  align-items: center;
+}
+.logo-img {
+  width: 355px;
+  height: 70px;
+}
+.search-event-form {
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  opacity: 1;
+  display: flex;
+  width: fit-content;
+  padding: 2px 7px 2px 7px;
+}
+.search-event-input {
+  border-radius: 51px;
+  outline: none;
+  border: none;
+  width: 20vw;
+}
+.search-icon {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 5px;
+  margin-top: 6px;
+}
+.submit-search-btn {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  border: none;
+}
+.public-events-link,
+.private-events-link {
+  text-decoration: none;
+  padding-top: 5px;
+  color: black;
+}
+.public-events-link:hover,
+.private-events-link:hover {
+  border-bottom: solid 2px#FF5700;
+  color: #ff5700;
+}
+.create-event-link {
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 51px;
+  padding: 5px 10px;
+  width: 10vw;
+}
+.create-event-link:hover {
+  background: transparent;
+  color: #ff5700;
+  font: bolder;
+  border: 2px solid #ff5700;
+}
+.log-in-link {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid #ff5700;
+  border-radius: 51px;
+  padding: 3px 25px;
+  color: black;
+  width: 10vw;
+  text-align: center;
+}
+.log-in-link:hover {
+  background: transparent linear-gradient(180deg, #fbb43d 0%, #f60900 100%) 0%
+    0% no-repeat padding-box;
+  color: #ffffff;
+  border: none;
+  padding: 5px 25px;
+}
+
+.event-title-section {
+  display: flex;
+  margin-top: 30px;
+}
+.row-styling {
+  padding: 0 20px;
+}
+.chevron-left-link {
+  color: black;
+  font-size: x-large;
+  text-decoration: none;
+  margin-left: 10px;
+}
+.chevron-left-link:hover {
+  color: black;
+}
+.event-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: x-large;
+  margin: 0 auto;
+}
+
+.merchandise-section {
+  background: #eae8f4 0% 0% no-repeat padding-box;
+  padding: 10vh 0;
+}
+.merchandise-names-col {
+  width: 300px;
+}
+.merchandise-list-body {
+  display: flex;
+  margin: auto;
+  box-shadow: 7px 7px 7px #00000034;
+  border: 2px solid #707070;
+  border-radius: 15px;
+  background-color: #ffffff;
+  padding: 5px;
+  width: fit-content;
+}
+.merchandise-list {
+  margin-top: 20px;
+}
+.merchandise-header-styling th {
+  font-weight: normal;
+}
+.merchandise-title-section {
+  width: 25vw;
+  margin: auto;
+}
+.merchandise-list-title {
+  font-weight: bolder;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+.center-merch-th {
+  text-align: center;
+  width: 115px;
+}
+.merch-checkbox-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.merchandise-name-styling {
+  font-weight: bold;
+}
+.quantity-plus-btn,
+.quantity-minus-btn {
+  border-radius: 50%;
+  font-size: 10px;
+  border: 2px solid black;
+  padding: 2px 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.quantity-plus-btn-disabled, .quantity-minus-btn-disabled {
+  border-radius: 50%;
+  font-size: 10px;
+  border: 2px solid rgb(143, 143, 143);
+  padding: 2px 3px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(143, 143, 143);
+}
+.quantity-input {
+  width: 40px;
+  height: 25px;
+  border: 2px solid rgb(143, 143, 143);
+  border-radius: 5px;
+  margin: 0 3px;
+  text-align: center;
+}
+.tr-border {
+  border-bottom: 1px solid #888888;
+}
+
+.merch-checkbox-center input:checked {
+    border-width: 2px;
+    border-color: #ff5700;
+    background-color: #ff5700;
+}
+
+.position-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont-checkout-btn {
+    background-color: #FF5700;
+    font-weight: bolder;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 40px 0;
+    border: none;
+    font-size: medium;
+}
